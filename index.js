@@ -2,7 +2,7 @@
 /*Console.log each variable and test your code in the terminal using the Node REPL*/
 
 /*i.e.*/
-console.log("#example")
+console.log("#example");
 var pet = "sebastian the pug";
 console.log(pet);
 console.log("\n");
