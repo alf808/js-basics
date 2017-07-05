@@ -283,7 +283,7 @@ console.log("3>2 || 3<1 : " + compWithOr);
 console.log("This is true. With \'or\' operator ||, only one of the expressions needs to be true.");
 var compWithAnd = (3>2 && 6>3);
 console.log("3>2 && 6>3 : " + compWithAnd);
-console.log("This is true. With \'and\' operator &&, all expressions need to be true in order for the whole expression to be true.")
+console.log("This is true. With \'and\' operator &&, all expressions need to be true in order for the whole expression to be true.");
 var compWithAnd2 = (7>2 && 8<5);
 console.log("7>2 && 8<5 : " + compWithAnd2);
 console.log("This is false since one of the expressions 8<5 is false.");
@@ -301,7 +301,7 @@ console.log("\n");
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 */
-console.log("#11")
+console.log("#11");
 var myBox = 108;
 console.log("myBox = " + myBox);
 myBox = true;
