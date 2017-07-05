@@ -22,18 +22,18 @@ var lastName = "Lang";
 var birthPlace = "Manila";
 var favoriteFood = "Indian";
 var bestMovie = "Europa Europa";
-var favLoveSong = "\'Core \'ngrato\'";
+var favLoveSong = "Core \'ngrato";
 var cuteAnimal = "bear";
 var favColor = "green";
 
-console.log(firstName);
-console.log(lastName);
-console.log(birthPlace);
-console.log(favoriteFood);
-console.log(bestMovie);
-console.log(favLoveSong);
-console.log(cuteAnimal);
-console.log(favColor);
+console.log("firstName: " + firstName);
+console.log("lastName: " + lastName);
+console.log("birthPlace: " + birthPlace);
+console.log("favoriteFood: " + favoriteFood);
+console.log("bestMovie: " + bestMovie);
+console.log("favLoveSong: " + favLoveSong);
+console.log("cuteAnimal: " + cuteAnimal);
+console.log("favColor: " + favColor);
 console.log("\n");
 
 /**
@@ -45,7 +45,7 @@ console.log("\n");
 * Each value should be a Number
 **/
 console.log("#2");
-var favoriteNumber = 37;
+var favoriteNumber = 97;
 var currentYear = 2017;
 var thatOnePrinceSong = 1999;
 var tokyoOlympics = 1964;
@@ -56,16 +56,16 @@ var numOfJapanPrefectures = 47;
 var currentIphoneModel = 5;
 var shoeSize = 8;
 
-console.log(favoriteNumber);
-console.log(currentYear);
-console.log(thatOnePrinceSong);
-console.log(tokyoOlympics);
-console.log(mariahCareyAge);
-console.log(currentTemp);
-console.log(studentsInClass);
-console.log(numOfJapanPrefectures);
-console.log(currentIphoneModel);
-console.log(shoeSize);
+console.log("favoriteNumber: " + favoriteNumber);
+console.log("currentYear: " + currentYear);
+console.log("thatOnePrinceSong: " + thatOnePrinceSong);
+console.log("tokyoOlympics: " + tokyoOlympics);
+console.log("mariahCareyAge: " + mariahCareyAge);
+console.log("currentTemp: " + currentTemp);
+console.log("studentsInClass: " + studentsInClass);
+console.log("numOfJapanPrefectures: " + numOfJapanPrefectures);
+console.log("currentIphoneModel: " + currentIphoneModel);
+console.log("shoeSize: " + shoeSize);
 console.log("\n");
 
 /**
@@ -88,16 +88,16 @@ var drinksCoffee = true;
 var shopsAtWholeFoods = true;
 var ownsRedShoes = false;
 
-console.log(likesMcDonalds);
-console.log(watchedMrRobot);
-console.log(ranMarathon);
-console.log(wrestledABear);
-console.log(lovesDonuts);
-console.log(readHarryPotter);
-console.log(sleptInClass);
-console.log(drinksCoffee);
-console.log(shopsAtWholeFoods);
-console.log(ownsRedShoes);
+console.log("likesMcDonalds: " + likesMcDonalds);
+console.log("watchedMrRobot: " + watchedMrRobot);
+console.log("ranMarathon: " + ranMarathon);
+console.log("wrestledABear: " + wrestledABear);
+console.log("lovesDonuts: " + lovesDonuts);
+console.log("readHarryPotter: " + readHarryPotter);
+console.log("sleptInClass: " + sleptInClass);
+console.log("drinksCoffee: " + drinksCoffee);
+console.log("shopsAtWholeFoods: " + shopsAtWholeFoods);
+console.log("ownsRedShoes: " + ownsRedShoes);
 console.log("\n");
 
 /**
@@ -123,16 +123,16 @@ console.log("\n");
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
 console.log("#5");
+console.log("type of null: " + (typeof null));
+console.log("type of undefined: " + (typeof undefined));
 /*
-null and undefined are special values that represent nothing or absence of value. They are equivalent as shown below.
+null and undefined are special values that represent nothing or absence of value. They are equivalent or loosely equal as shown below.
 */
 console.log("null == undefined");
 console.log(null == undefined);
 /*
 However, they are not strictly equal wherein undefined is of type undefined and null is of type object.
 */
-console.log("type of null: " + (typeof null));
-console.log("type of undefined: " + (typeof undefined));
 console.log("null === undefined");
 console.log(null === undefined);
 console.log("\n");
@@ -210,7 +210,7 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 var favSneaker = "Puma pumps";
 var coffeeShop = "Peets coffee bar";
-var mariahStory = "At the age of " + mariahCareyAge + ", Mariah Carey, wearing her fancy " + favSneaker + " sang " + favLoveSong + " at the " + coffeeShop + ".";
+var mariahStory = "At the age of " + mariahCareyAge + ", Mariah Carey, wearing her fancy " + favSneaker + " sang " + "\'" + favLoveSong + "\'" + " at the " + coffeeShop + ".";
 console.log(mariahStory);
 console.log("\n");
 
@@ -227,17 +227,20 @@ var num2 = 19;
 * Next perform the following arithmetic operations:
 
 * Add the two variables and store it to new variable named `sum`.
-*/
-var sum = num1 + num2;
-/*
 * Subtract the two variables and store it to a new variable named `difference`.
 * Mulitply the two variables and store it to a new variable named `product`.
 * Divide the two variables and store it to a new variable named `quotient`.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
 */
+var sum = num1 + num2;
 var difference = num1 - num2;
 var product = num1 * num2;
 var quotient = num1 / num2;
+console.log("num1 = " + num1 + ", num2 = " + num2);
+console.log("sum of num1 and num2: " + sum);
+console.log("difference of num1 and num2 (num1 - num2): " + difference);
+console.log("product of num1 and num2: " + product);
+console.log("quotient of num1 and num2: " + quotient);
 console.log("remainder of num1 / num2: " + (num1 % num2));
 console.log("\n");
 
@@ -249,19 +252,41 @@ console.log("\n");
 * Declare a variable named `isStrictlyEqual` and compare two strings "Tacocat" and "tacocat" using the strict equality.
 * Declare another variable named `isLooselyEqual` and compare the two strings "Tacocat" and "tacocat" using equality.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
+*/
+console.log("#10");
+var isStrictlyEqual = ("Tacocat" === "tacocat");
+console.log("\"Tacocat\" === \"tacocat\" : " + isStrictlyEqual);
 
+var isLooselyEqual = ("Tacocat" == "tacocat");
+console.log("\"Tacocat\" == \"tacocat\" : " + isLooselyEqual);
+/* "Tacocat" and "tacocat" are not equal, loosely or strictly, because of case sensitivity.
+*
 * Declare a variable named `sameNum` and compare a string "5" and a number 5 using strict equality.
 * Declare another variable named `sameNumba` and compare a string "5" and a number 5 using equality.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
 */
-
+var sameNum = ("5" === 5);
+var sameNumba = ("5" == 5);
+console.log("\"5\" === 5 : " + sameNum);
+console.log("\"5\" == 5 : " + sameNumba);
 /*
+"5" and 5 are not strictly equal since they are different types, namely string and number respectively.
+* They are however equivalent in inner content as the expression with operator \'==\' demonstrates.
+
 * Use the logical && or || and compare the following:
 * 3>2 3<1 (use or)
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?*/
-
+var compWithOr = (3>2 || 3<1);
+console.log("3>2 || 3<1 : " + compWithOr);
+console.log("This is true. With \'or\' operator ||, only one of the expressions needs to be true.");
+var compWithAnd = (3>2 && 6>3);
+console.log("3>2 && 6>3 : " + compWithAnd);
+console.log("This is true. With \'and\' operator &&, all expressions need to be true in order for the whole expression to be true.")
+var compWithAnd2 = (7>2 && 8<5);
+console.log("7>2 && 8<5 : " + compWithAnd2);
+console.log("This is false since one of the expressions 8<5 is false.");
 console.log("\n");
 
 /*
@@ -276,7 +301,18 @@ console.log("\n");
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 */
-
+console.log("#11")
+var myBox = 108;
+console.log("myBox = " + myBox);
+myBox = true;
+console.log("myBox = " + myBox);
+myBox = undefined;
+console.log("myBox = " + myBox);
+myBox = "ditch";
+console.log("myBox = " + myBox);
+myBox = [0, 1];
+console.log("myBox = ");
+console.log(myBox);
 console.log("\n");
 
 /*
@@ -289,22 +325,33 @@ console.log("\n");
 * For example, if the value is `blueberry`, it should return "Today's special blueberry pie."
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.*/
-
+console.log("Final Boss");
+function bakePie(ingredient) {
+	return "Today\'s special is " + ingredient + " pie.";
+}
+var pieResult = bakePie("blueberry");
+console.log(pieResult);
 
 /*
 * Declare a Function named `jump` which has a single parameter, `height`.
 * This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
 * For example, if the value is 9, it should return "You jumped 9 feet high!"
 
-
-
 * Declare a variable 'jumpResult' and assign it to the function call.
-* Console.log the variable to see the result.*/
-
+* Console.log the variable to see the result.
+*/
+function jump(height) {
+	return "You jumped " + height + " feet high!";
+}
+var jumpResult = jump(9);
+console.log(jumpResult);
 
 /*
 * Declare a Function named `cook` which a takes three parameters, `ingredient1`, `ingredient2`, `recipeName`.
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 */
-
+function cook(ingredient1, ingredient2, recipeName) {
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
+}
+console.log(cook("Tomatoes", "Cheese", "Pizza"));
